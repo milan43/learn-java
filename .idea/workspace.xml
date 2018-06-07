@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca35c60-3d24-46e2-bb4e-f2c349d50338" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/NestedTry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreJava/nestedclass/ThreadDem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreJava/nestedclass/ThreadDem.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,6 +89,9 @@
         <option value="$PROJECT_DIR$/src/exception/ExceptionHandling.java" />
         <option value="$PROJECT_DIR$/src/exception/CustomException.java" />
         <option value="$PROJECT_DIR$/src/exception/TryCatch.java" />
+        <option value="$PROJECT_DIR$/src/logging/LogException.java" />
+        <option value="$PROJECT_DIR$/src/serializabe/Student.java" />
+        <option value="$PROJECT_DIR$/src/serializabe/SerializationDemo.java" />
       </list>
     </option>
   </component>
@@ -122,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,25 +134,13 @@
               <item name="CoreJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CoreJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="CustomException.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnterData">
+  <component name="RunManager" selected="Application.SerializationDemo">
     <configuration name="CustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception.CustomException" />
       <module name="CoreJava" />
@@ -191,24 +178,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EnterData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.EnterData" />
+    <configuration name="LogException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logging.LogException" />
       <module name="CoreJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ExceptionPropagation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ExceptionPropagation" />
-      <module name="CoreJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="logging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,6 +196,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serializabe.SerializationDemo" />
+      <module name="CoreJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serializabe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,19 +264,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionPropagation" />
       <item itemvalue="Application.NestedTry" />
       <item itemvalue="Application.CustomException" />
-      <item itemvalue="Application.EnterData" />
       <item itemvalue="Application.TryCatch" />
+      <item itemvalue="Application.LogException" />
+      <item itemvalue="Application.SerializationDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationDemo" />
+        <item itemvalue="Application.LogException" />
         <item itemvalue="Application.TryCatch" />
         <item itemvalue="Application.CustomException" />
         <item itemvalue="Application.NestedTry" />
-        <item itemvalue="Application.EnterData" />
-        <item itemvalue="Application.ExceptionPropagation" />
       </list>
     </recent_temporary>
   </component>
@@ -313,11 +300,13 @@
       <workItem from="1528223880303" duration="277000" />
       <workItem from="1528224471828" duration="297000" />
       <workItem from="1528277763434" duration="3554000" />
+      <workItem from="1528305976239" duration="748000" />
+      <workItem from="1528348594201" duration="6238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62011000" />
+    <option name="totallyTimeSpent" value="68997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="698" extended-state="6" />
@@ -331,8 +320,8 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.27040815" />
       <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.29421768" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3282313" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
@@ -343,8 +332,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.21428572" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.21428572" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="REST Client" order="0" weight="0.54745764" />
@@ -376,13 +365,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/abstraction/DocDemo.java" />
-    <entry file="jar://$USER_HOME$/programfiles/java/jdk-10.0.1/lib/src.zip!/java.base/java/io/Serializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/programfiles/java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/CloneNotSupportedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -665,6 +647,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logging/LogException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/programfiles/java/jdk-10.0.1/lib/src.zip!/java.base/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="904" column="26" lean-forward="true" selection-start-line="904" selection-start-column="26" selection-end-line="904" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/programfiles/java/jdk-10.0.1/lib/src.zip!/java.base/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializabe/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serializabe/SerializationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
