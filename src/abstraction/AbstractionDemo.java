@@ -19,7 +19,7 @@ package abstraction;
      * charge must be overrided by all class that inherits Phone class except that
      * inheriting class is abstract
      */
-    abstract void charge();
+     abstract void charge();
   void price(){
       System.out.println("Price");
   }

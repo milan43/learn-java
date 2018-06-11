@@ -2,7 +2,7 @@ package casting;
 
 public class CastingDemo {
     public static void main(String[] args) {
-    Animal a = new Animal();
+   /* Animal a = new Animal();
     System.out.println("Animal a = new Animal();");
     a.getType();
     a.getInfo();
@@ -25,5 +25,22 @@ public class CastingDemo {
         System.out.println(d1 instanceof Animal);//true
         System.out.println(a instanceof Dog);//false
         System.out.println(d instanceof Animal);//true
+*/
+/*        Animal animal =  new Animal();
+        Dog dog = (Dog)animal;
+        System.out.println("Animal animal = new Animal();");
+        dog.getType();
+        dog.getName();
+        dog.getInfo();
+        dog.species();*/
+
+        Animal animal1 = new Dog();
+        Dog dog1 = (Dog)animal1;
+        System.out.println("Animal animal = new Dog();");
+        dog1.getType();
+        dog1.getName();
+        dog1.getInfo();
+        dog1.getType();
+
     }
 }

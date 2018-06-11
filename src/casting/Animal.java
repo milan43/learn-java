@@ -7,6 +7,9 @@ public class Animal {
     public static void getInfo(){
         System.out.println("(Static) Animal contains dog");
     }
+    public  void getName(){
+        System.out.println("Dog");
+    }
 }
 class Dog extends Animal{
     @Override
@@ -19,5 +22,9 @@ class Dog extends Animal{
      */
     public static void getInfo(){
         System.out.println("(Static) Dog is an animal");
+    }
+
+    public void species(){
+        System.out.println("Mammel");
     }
 }

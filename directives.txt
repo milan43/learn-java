@@ -1,0 +1,9 @@
+Types of directives
+1) Components
+	custom element (widget)
+2) Decorators
+	enhance functionality of existing directive
+	ng-click
+3) Templating
+	ng-repeat
+
