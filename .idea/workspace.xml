@@ -8,17 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca35c60-3d24-46e2-bb4e-f2c349d50338" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java8/defaultmethod/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/filtering/FilterAppleDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java8/filtering/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/location/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreJava/casting/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreJava/casting/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreJava/casting/CastingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreJava/casting/CastingDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoreJava/casting/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoreJava/casting/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/AbstractionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/AbstractionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casting/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casting/CastingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/CastingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/location/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/location/Location.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,12 +34,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basic/Test.java">
+    <leaf>
+      <file leaf-file-name="Location.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/location/Location.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +120,8 @@
         <option value="$PROJECT_DIR$/src/java8/defaultmethod/Test.java" />
         <option value="$PROJECT_DIR$/src/java8/filtering/StreamDemo.java" />
         <option value="$PROJECT_DIR$/src/location/LocatePlace.java" />
-        <option value="$PROJECT_DIR$/src/location/Location.java" />
         <option value="$PROJECT_DIR$/src/basic/Test.java" />
+        <option value="$PROJECT_DIR$/src/location/Location.java" />
       </list>
     </option>
   </component>
@@ -157,9 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,12 +169,13 @@
               <item name="CoreJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="CoreJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="location" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Location">
     <configuration name="FilterAppleDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.filtering.FilterAppleDemo3" />
       <module name="CoreJava" />
@@ -313,8 +307,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Location" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.FilterAppleDemo4" />
         <item itemvalue="Application.FilterAppleDemo3" />
@@ -348,12 +342,13 @@
       <workItem from="1528607188107" duration="7391000" />
       <workItem from="1528643392144" duration="4017000" />
       <workItem from="1528696569068" duration="18377000" />
-      <workItem from="1528733020172" duration="3935000" />
+      <workItem from="1528733020172" duration="4061000" />
+      <workItem from="1528779167605" duration="2659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110180000" />
+    <option name="totallyTimeSpent" value="112965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="698" extended-state="6" />
@@ -369,11 +364,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32312927" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32142857" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3282313" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info anchor="right" id="Database" order="6" weight="0.329429" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -723,24 +718,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/location/LocatePlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/location/LocatePlace.java" />
     <entry file="jar://$USER_HOME$/programfiles/java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="5606" column="17" lean-forward="true" selection-start-line="5606" selection-start-column="17" selection-end-line="5606" selection-end-column="17" />
-          <folding>
-            <element signature="e#249749#249750#0" expanded="true" />
-            <element signature="e#249802#249803#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,20 +733,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/location/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="86" column="87" lean-forward="true" selection-start-line="86" selection-start-column="87" selection-end-line="86" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/location/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

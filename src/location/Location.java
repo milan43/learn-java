@@ -65,13 +65,15 @@ public class Location {
 
           /*      break;
             case 2:*/
-                Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+          char c = 'y';
+          do{
                 System.out.println("Enter your address");
                 String place = sc.next();
                 // System.out.println(place);
-                for (Map.Entry<String, String[]> findPlace : places.entrySet()) {
+               outer : for (Map.Entry<String, String[]> findPlace : places.entrySet()) {
                     String values = findPlace.getKey();
-                  //  Arrays.stream(places.get(values)).filter(value ->value.equalsIgnoreCase(place));
+                    //  Arrays.stream(places.get(values)).filter(value ->value.equalsIgnoreCase(place));
                     for (String value : places.get(values)) {
                         if (value.equalsIgnoreCase(place)) {
                             System.out.println("You are at " + findPlace.getKey());
@@ -82,16 +84,22 @@ public class Location {
                                     .filter(p -> !p.equalsIgnoreCase(place)).sorted()
                                     .forEach(System.out::println);
                             break;
-                        }
-                        else if(place.equalsIgnoreCase(values)){
-                            System.out.println(values+"!Wow! You will love to visit:");
+                        } else if (place.equalsIgnoreCase(values)) {
+                            System.out.println(values + "!Wow! You will love to visit:");
                             Arrays.stream(places.get(values)).sorted().forEach(System.out::println);
                             break;
+                        }else{
+                            System.out.println("Match Not Found");
+                            break outer;
                         }
 
                     }
-
                 }
+              System.out.println("Do you want to continue: Y/N?");
+                c= sc.next().charAt(0);
+
+
+                }while (c=='y' || c=='Y');
     }
 
 
